@@ -1,0 +1,115 @@
+/* signUp.css */
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.arrow-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.arrow-icon {
+    font-size: 40px;
+}
+
+.name-box, .email-box, .pwd-box {
+    background-color: #fff; /* 배경색 (투명도 조절 가능) */
+    border: 1px solid #ccc; /* 테두리 (얇은 연한 회색) */
+    border-radius: 15px; /* 모퉁이 둥글기 */
+    padding: 15px; /* 내부 여백 */
+    width: 280px; /* 너비 설정 */
+    margin-bottom: 20px; /* 각 input 간의 간격 */
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1.5px solid #8000ff; /* 테두리 (얇은 연한 회색) */
+    border-radius: 5px; /* 모퉁이 둥글기 */
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+}
+
+.checkbox-text {
+    font-size: 13px;
+}
+
+.checkbox-highlight {
+    color: #8000ff;
+}
+
+.signup-btn {
+    background-color: rgb(81, 255, 69); /* 배경색 (투명도 조절 가능) */
+    border: none;
+    border-radius: 15px; /* 모퉁이 둥글기 */
+    padding: 14px; /* 내부 여백 */
+    width: 312px; /* 너비 설정 */
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px; /* 버튼 간의 간격 */
+}
+
+.or-text {
+    color: #939393;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* 배경색 (투명도 조절 가능) */
+    border: 1px solid #ccc; /* 테두리 (얇은 연한 회색) */
+    border-radius: 15px; /* 모퉁이 둥글기 */
+    padding: 14px; /* 내부 여백 */
+    width: 312px; /* 너비 설정 */
+    margin-bottom: 20px; /* 버튼 간의 간격 */
+}
+
+.google-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.google-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-text {
+    color: #939393;
+    font-size: 15px;
+}
+
+.login-highlight {
+    color: #8000ff;
+    text-decoration: underline;
+    cursor: pointer;
+}

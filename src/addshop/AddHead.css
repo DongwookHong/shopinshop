@@ -1,0 +1,31 @@
+.addhead-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #4DFF3D; /* Background color */
+    color: white;
+    position: relative;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+  }
+  
+  .header-title {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .back-icon {
+    width: 24px; /* Size of the back icon */
+    height: 24px; /* Size of the back icon */
+  }
+  

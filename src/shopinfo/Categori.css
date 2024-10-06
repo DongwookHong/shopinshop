@@ -1,0 +1,22 @@
+.categori-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .category-label {
+    margin-right: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  .category-button {
+    background-color: #99ff66; /* Adjust the color as needed */
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  

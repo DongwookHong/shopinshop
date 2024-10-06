@@ -1,0 +1,87 @@
+/* Chatting.css */
+.chatting_header {
+  background: #73C7A4;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: #B4A2A2 3px;
+}
+
+.back_button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.chatting_word {
+  font-size: 30px;
+  color: white;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.chatting_rooms {
+  background: #73C7A4;
+  padding: 10px;
+}
+
+.room {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  color: #000000;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.room img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.room_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.nickname {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.location {
+  font-size: 12px;
+  color: #B4A2A2;
+}
+
+.message {
+  font-size: 12px;
+  color: #000000;
+}
+
+@media (min-width: 600px) {
+  .chatting_word {
+    font-size: 30px;
+  }
+
+  .room img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nickname {
+    font-size: 18px;
+  }
+
+  .location, .message {
+    font-size: 14px;
+  }
+}

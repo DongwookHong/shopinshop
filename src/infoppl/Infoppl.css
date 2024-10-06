@@ -1,0 +1,15 @@
+/* Infoppl.css */
+.question-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #90ee90; /* 연한 초록색 배경 */
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    width: calc(100% - 30px); /* 전체 너비에서 양쪽 패딩 값을 뺀 값 */
+    max-width: 500px;
+    width: 95%;
+    /* border-radius: 5px; */
+  }
+  

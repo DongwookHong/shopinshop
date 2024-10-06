@@ -1,0 +1,37 @@
+/* DetailHead.css */
+.setting-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.chat-button {
+  background: none;
+  border: 2px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: black;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px; /* 오른쪽 끝으로 배치 */
+}

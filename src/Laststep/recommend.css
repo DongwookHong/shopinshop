@@ -1,0 +1,56 @@
+.recommend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    margin-top: 100px;
+    color: #939393;
+    text-align: center;
+}
+
+.heading2 {
+    margin-top: 20px;
+    width: 80%;
+    color: #939393;
+    text-align: center;
+}
+
+.arrow-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(81, 255, 69);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.arrow-icon {
+    font-size: 40px;
+}
+
+.stuff-btn,
+.rent-btn,
+.interior-btn,
+.furniture-btn,
+.done-btn {
+    background-color: rgb(81, 255, 69);
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 12.5px;
+    width: 312px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.done-btn {
+    background-color: #fff;
+    color: rgb(81, 255, 69);
+}

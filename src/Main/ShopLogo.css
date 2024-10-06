@@ -1,0 +1,23 @@
+.shoplogo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #ffffff; /* 배경색을 원하는 색으로 설정 */
+    margin-bottom: 100px;
+    margin-top: 50px
+}
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .main-text {
+    margin-top: 20px; /* 로고와 텍스트 사이의 간격 조정 */
+    font-size: 24px; /* 텍스트 크기 설정 */
+    color: #000000; /* 텍스트 색상 설정 */
+    font-weight: bold; /* 텍스트 굵게 설정 */
+  }
+  
